@@ -1,0 +1,50 @@
+
+  #map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .marker-color-onechild {
+    background-color: rgba(218, 94, 94, 0.6);
+    }
+  .marker-color-onechild div {
+    background-color: rgba(226, 36, 36, 0.6);
+    }
+  
+  .marker-color-twochilds {
+    background-color: rgba(241, 211, 87, 0.6);
+    }
+  .marker-color-twochilds div {
+    background-color: rgba(240, 194, 12, 0.6);
+    }
+  
+  .marker-color-threechilds {
+    background-color: rgba(253, 156, 115, 0.6);
+    }
+  .marker-color-threechilds div {
+    background-color: rgba(241, 128, 23, 0.6);
+    }
+  
+  .marker-color {
+    background-clip: padding-box;
+    border-radius: 20px;
+    }
+  .marker-color div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+  
+    text-align: center;
+    border-radius: 15px;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+  .marker-color span {
+    line-height: 30px;
+    }
+    
+}
